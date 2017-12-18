@@ -1,37 +1,16 @@
-/* Colors */
-/* Box model */
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-.main {
-  flex: 1;
-}
-/* Dev Mode */
-.container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-/* Partials */
+/* Header */
+
 .header {
   width: 100%;
-  background-color: #f06;
+  background-color: highlight-color;
 }
+
 .menu {
-  border: 1px dashed #000;
+  border();
   display: flex;
   align-items: center;
 }
+
 @media screen and (max-width: 400px) {
   .menu {
     width: 100%;
@@ -40,25 +19,30 @@ body {
     margin: 10px 0;
   }
 }
+
 .menu-itens {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 .menu-item {
   list-style: none;
   display: inline-block;
 }
+
 .menu-link {
   color: #fff;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
 }
+
 .profile {
-  border: 1px dashed #000;
+  border();
   margin-left: auto;
 }
+
 @media screen and (max-width: 400px) {
   .profile {
     width: 100%;
@@ -67,23 +51,15 @@ body {
     margin: 10px 0;
   }
 }
+
 .profile-img {
   vertical-align: middle;
   border-radius: 50%;
   margin: 5px;
 }
+
 .profile-text {
   margin: 5px;
   display: inline-block;
   color: #fff;
-}
-.footer {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-}
-.heart-icon {
-  fill: #f06;
 }
