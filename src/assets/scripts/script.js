@@ -1,5 +1,5 @@
 const foo = () => {
-  console.log('olarrrr');
-}
+  return 'olar';
+};
 
 foo();
