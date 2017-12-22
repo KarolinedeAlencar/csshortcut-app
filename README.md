@@ -3,6 +3,7 @@
 > Projeto descolado <3
 
 [![Build Status](https://travis-ci.org/KarolinedeAlencar/csshortcut-app.svg?branch=master)](https://travis-ci.org/KarolinedeAlencar/csshortcut-app)
+[![devDependencies Status](https://david-dm.org/karolinedealencar/csshortcut-app/dev-status.svg)](https://david-dm.org/karolinedealencar/csshortcut-app?type=dev)
 
 ## Stack
 
