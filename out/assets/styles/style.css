@@ -45,10 +45,14 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.flipped {
+  height: 100%;
+}
 .container-centered {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .projects {
   width: 100%;

@@ -36,12 +36,14 @@ html(lang="en")
 
 
 
-  body
+  body(data-senna)
     include ./../partials/header.pug
 
-    main.main.container-centered
+
+    main(data-senna-surface)#content.main
       block content
 
     include ./../partials/footer.pug
 
     script(type="text/javascript" src="assets/scripts/script.js" async)
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/globals/senna-min.js")
